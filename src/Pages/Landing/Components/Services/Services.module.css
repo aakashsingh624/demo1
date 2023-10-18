@@ -1,0 +1,58 @@
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+/* .card{
+    bo
+} */
+.sub-service-category {
+    text-align: center;
+    height: 320px;
+    padding: 30px 25px;
+    box-shadow: 0 0 25px rgb(0 0 0 / 7%);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    background: linear-gradient(
+        var(--white-color) 50%,
+        var(--main-supporting-color) 50%
+    );
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    cursor: pointer;
+    background: white;
+}
+.sub-service-category:hover {
+    /* background-position: 0 100%; */
+    background: #b59410;
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 20%);
+    transition: all 0.5s ease 0s;
+}
+.sub-services-icon {
+    background-color: #b59410;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+.sub-service-category:hover .sub-services-icon {
+    background-color: white;
+    color: #b59410;
+}
+.sub-service-category:hover .sub-services-content h2,
+.sub-service-category:hover .sub-services-content p {
+    color: white;
+}
+.vertical-line {
+    margin: auto;
+    width: 2px;
+    height: 6rem;
+}

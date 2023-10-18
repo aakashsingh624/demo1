@@ -1,0 +1,10 @@
+1 Number of Running Projects (with View Project Table)
+2 Number of Completed Projects (with View Project Table)
+3 Number of Projects Delivered on Time
+4 Number of Projects Pending
+5 Total Earning
+6 Current Month Earning
+7 Previous Month Earning
+8 Earning Trend Graph
+9 Project Rates Graph
+10 Top 3 projects (Optional)

@@ -1,0 +1,7 @@
+.innerText p {
+    margin-bottom: 0 !important;
+}
+.height {
+    height: 42.4vh;
+    overflow-y: auto;
+}

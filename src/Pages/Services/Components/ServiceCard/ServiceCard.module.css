@@ -1,0 +1,28 @@
+.card {
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    width: 22rem;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px 0px #b59410;
+    z-index: 2;
+}
+.background {
+    background: linear-gradient(
+        to right,
+        rgb(26, 32, 57),
+        rgb(43, 52, 93) 50%,
+        rgb(26, 32, 57) 100%
+    );
+    display: flex;
+    align-items: center;
+}
+.margin-top-check {
+    margin-top: -0.15em;
+}
+.card-height {
+    height: 8.5rem;
+    overflow-y: auto;
+    margin-bottom: 1em;
+}

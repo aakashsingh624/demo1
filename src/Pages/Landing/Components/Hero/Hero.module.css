@@ -1,0 +1,40 @@
+.main-hero-section {
+    background: linear-gradient(
+            to right,
+            rgba(29, 37, 113, 0.5),
+            #ffffff00 100%
+        ),
+        url(../../../../../public/img/banner2.png);
+    /* background: red; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 140px 0 0 0;
+    z-index: 100;
+    /* background-attachment: fixed; */
+    height: 100vh;
+}
+.container {
+    max-width: 80%;
+}
+.hero-heading {
+    font-family: EB Garamond;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 89px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.main-hero-section button {
+    margin-top: 2rem;
+    padding: 1em 2em;
+    transform: scale(1) !important;
+    background: transparent;
+    border: 2px solid #b59410;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.main-hero-section button:hover {
+    transform: scale(1) !important;
+    background: #b59410;
+}

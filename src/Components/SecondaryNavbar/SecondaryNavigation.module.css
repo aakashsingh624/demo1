@@ -1,0 +1,13 @@
+.img {
+    border: 2px solid #b59410;
+}
+a {
+    cursor: pointer;
+}
+.icon {
+    line-height: 0;
+}
+.active {
+    color: #b59410;
+    border-bottom: 4px solid #b59410;
+}

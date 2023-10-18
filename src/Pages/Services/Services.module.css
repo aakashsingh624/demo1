@@ -1,0 +1,66 @@
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 2em 0 0.5em 0;
+}
+.imgWidth {
+    max-height: 10em;
+}
+/* .card-max-width {
+    background-color: red;
+} */
+.vertical-line {
+    margin: auto;
+    width: 2px;
+    height: 6rem;
+}
+.question {
+    font-size: 2.25rem;
+}
+/* .animated-text {
+    font-size: 48px;
+    font-weight: bold;
+    animation: slide-in 1s ease-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+} */
+.abstract-background {
+    width: 40%;
+    height: 4em;
+    background: linear-gradient(
+        to right,
+        rgb(26, 32, 57),
+        rgb(43, 52, 93),
+        rgb(26, 32, 57)
+    );
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    mix-blend-mode: screen;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.service-header {
+    font-size: 1.75rem !important;
+}

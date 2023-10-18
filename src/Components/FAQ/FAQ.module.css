@@ -1,0 +1,10 @@
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 0 0 2em 0;
+}
+.vertical-line {
+    margin: auto;
+    width: 2px;
+    height: 6rem;
+}

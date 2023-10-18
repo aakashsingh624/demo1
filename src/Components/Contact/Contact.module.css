@@ -1,0 +1,13 @@
+.container {
+    max-width: 80%;
+    margin: auto;
+    height: 100%;
+    margin-top: 1.5em;
+}
+.customHeader {
+    font-family: EB Garamond;
+}
+.send {
+    font-family: Montserrat;
+    text-transform: uppercase;
+}

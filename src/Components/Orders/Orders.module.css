@@ -1,0 +1,21 @@
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 2em 0;
+}
+.container2 {
+    max-width: 80%;
+    margin: auto;
+    padding: 1em 0;
+}
+.height {
+    height: 73vh;
+}
+.card-container-height {
+    max-height: 43vh;
+    overflow-y: auto;
+}
+.header {
+    font-weight: 800;
+    font-family: EB Garamond;
+}
